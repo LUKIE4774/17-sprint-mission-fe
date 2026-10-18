@@ -29,7 +29,7 @@ a {
 
 body {
   margin: 0;
-  background-color: yellow;
+  background-color: white;
   padding-top: 4.375rem;
   font-family: "Pretendard", sans-serif;
 }
@@ -53,6 +53,11 @@ body {
   z-index: 1000;
   background-color: white;
   border-bottom: 1px solid #DFDFDF;
+}
+
+.nav-logo {
+  width: 153px;
+  height: auto;
 }
 
 .logo {
@@ -136,15 +141,15 @@ body {
   align-items: center;
   justify-content: center;
 
-  gap: 5rem;
+  gap: 4rem;
   max-width: 120rem;
   height: 45rem;
   box-sizing: border-box;
   margin: 0 auto;
 
   padding-bottom: 8.625rem;
-  padding-left: 21.5rem; 
-  padding-right: 21.5rem;
+  padding-left: 15rem; 
+  padding-right: 15rem;
 }
 
 .feature img {
@@ -156,7 +161,7 @@ body {
 }
 
 .feature-content {
-  flex: 1;
+  flex: 0 0. auto;
   text-align: left;
   background-color: #FCFCFC;
 }
@@ -201,7 +206,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  gap: 5rem;
+  gap: 1rem;
   overflow: hidden;
 }
 
@@ -212,8 +217,7 @@ body {
 }
 
 .hero-content h1 {
-  width: 25rem;
-
+  width: fit-content;
   font-size: 2rem;
   font-weight: 600;
   line-height: 3.5rem;
@@ -225,7 +229,9 @@ body {
   width: 37.5rem;
   max-width: 50%;
   align-self: flex-end;
+
 }
+
 
 .hero-image img {
   display: block;
